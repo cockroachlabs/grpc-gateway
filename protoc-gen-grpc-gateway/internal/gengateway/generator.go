@@ -7,8 +7,8 @@ import (
 	"path"
 
 	"github.com/golang/glog"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/descriptor"
-	gen "github.com/grpc-ecosystem/grpc-gateway/v2/internal/generator"
+	"github.com/cockroachlabs/grpc-gateway/v2/internal/descriptor"
+	gen "github.com/cockroachlabs/grpc-gateway/v2/internal/generator"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"
 )
