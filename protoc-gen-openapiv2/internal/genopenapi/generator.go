@@ -11,8 +11,8 @@ import (
 
 	"github.com/golang/glog"
 	anypb "github.com/golang/protobuf/ptypes/any"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/descriptor"
-	gen "github.com/grpc-ecosystem/grpc-gateway/v2/internal/generator"
+	"github.com/cockroachlabs/grpc-gateway/v2/internal/descriptor"
+	gen "github.com/cockroachlabs/grpc-gateway/v2/internal/generator"
 	openapi_options "github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/protobuf/proto"
