@@ -42,9 +42,8 @@ var (
 	visibilityRestrictionSelectors = utilities.StringArrayFlag(flag.CommandLine, "visibility_restriction_selectors", "list of `google.api.VisibilityRule` visibility labels to include in the generated output when a visibility annotation is defined. Repeat this option to supply multiple values. Elements without visibility annotations are unaffected by this setting.")
 )
 
-// Variables set by goreleaser at build time
 var (
-	version = "dev"
+	version = "crl"
 	commit  = "unknown"
 	date    = "unknown"
 )
